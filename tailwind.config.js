@@ -8,7 +8,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow:{
+        'nprogress':' 0 0 10px var(--p), 0 0 5px var(--p)'
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
